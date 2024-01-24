@@ -1,0 +1,24 @@
+1. WAMP, XAMP, LAMP, AMPS
+	
+Apache - A
+MySQL  - M
+PHP    - P
+
+2 Download wordpress
+
+
+3. XAMP -> www (public folder) -> wordpress files
+
+4. 
+
+localhost/phpmyadmin 
+
+	Username and Password (Refer the documentation)
+AMPS - username = root
+	
+-> create database -> w
+
+5. localhost/wordpress
+
+127.0.0.1 
+
