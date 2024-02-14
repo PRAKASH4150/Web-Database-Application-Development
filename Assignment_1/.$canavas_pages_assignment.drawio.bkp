@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2024-02-03T05:01:34.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="g0mCC6sA2v6ym4b7Y0TG" version="23.0.2" type="device">
+  <diagram name="Page-1" id="cnczdzIVUWiRcOcskak1">
+    <mxGraphModel dx="780" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004785;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="450" width="320" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-6" value="&lt;h1&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#ffffff&quot; face=&quot;Helvetica&quot;&gt;University of New Haven&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38.13" y="500" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-8" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px;&quot;&gt;Sign in with your university account&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="56.88" y="560" width="267.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="670" width="271.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="610" width="271.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-12" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#b8b8b8&quot;&gt;Username&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="66.88" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-13" value="&lt;font color=&quot;#b8b8b8&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Password&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="66.88" y="680" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-14" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 14px;&quot;&gt;Sign In&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="56.88" y="740" width="271.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xo0E1xpivbkFc5uJHG_q-15" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;To Change your password or for help with login issues please click here&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="56.88" y="830" width="273.12" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
