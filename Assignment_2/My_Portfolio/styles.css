@@ -1,0 +1,265 @@
+:root{
+    --black:black;
+    --white:white;
+    --lightpink:#E1D5E7;
+    --logo_font_size:25px;
+    --nav_font_size:20px;
+    --section_heading_font_size:25px;
+    --sections_padding:5px;
+    --resume_button_bg_color:#CC0066;
+    --font_family:"Alegreya Sans",serif;
+    --section_padding:70px;
+}
+body{
+    margin:0%;
+    font-family: var(--font_family);
+}
+    
+#navigation
+{ 
+    background-color: var(--black);
+    margin:0%;
+    overflow:hidden;
+    
+}
+#navigation a
+{
+    float:right;
+    display:block;
+    color:var(--white);
+    text-decoration:none;
+    padding: 15px;
+    padding-bottom:5px;
+    font-size:var(--nav_font_size);
+    
+}
+#navigation .logo
+{
+    float: left;
+    font-weight:bolder;
+    font-size:var(--logo_font_size);
+}
+
+#navigation a:hover
+{
+    background-color:var(--lightpink);
+    color:var(--black);
+    font-weight:bolder;
+}
+
+.sectionheading
+{
+    text-align:center;
+    font-weight: bold;
+    font-size:var(--section_heading_font_size);
+}
+
+.box
+{
+    float:left;
+    width: 50%;
+}
+
+.box .imagebuttonholder, #skills .skillcontainer
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#aboutme
+{
+    padding:var(--sections_padding);
+    background-color:var(--white);
+    height:400px;
+}
+
+
+.box .imagebuttonholder #userimage
+{
+    width: 50%;
+}
+
+.box .imagebuttonholder #downloadresume
+{
+    background-color: var(--resume_button_bg_color);
+    color: var(--white);
+    font-family: var(--font_family);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius:5px;
+    padding:5px;
+    margin-top:20px;
+    width:200px;
+    border-color:var(--resume_button_bg_color) ;
+    
+}
+
+.box .imagebuttonholder #downloadresume:hover
+{
+    background-color:firebrick;
+}
+
+.box #introbox
+{
+    padding-right:var(--section_padding);
+}
+
+.box #introbox #hello
+{
+    font-size:25px;
+    font-weight:bold;
+    margin:0%;
+}
+
+.box #introbox #name
+{
+    font-size:40px;
+    font-weight:bolder;
+    margin:0%;
+    margin-top:20px;
+    margin-bottom: 20px ;
+}
+.box #introbox #content
+{
+    font-size:20px;
+    text-align: justify;
+    line-height:27px;
+    margin: 0%;
+    margin-top:10px;
+}
+
+.box #introbox #email
+{
+    font-size:18px;
+    margin:0%;
+    margin-top:10px;
+}
+
+#experience
+{
+    padding:var(--sections_padding);
+    background-color:var(--lightpink);
+    height:550px;
+}
+
+#experience #workinfo
+{
+    padding-left:var(--section_padding);
+    padding-right:var(--section_padding);
+}
+#experience #workinfo #company
+{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:0px;
+}
+#experience #workinfo .subtags
+{
+    font-size:18px;
+    margin-top:1%;
+}
+#experience #workinfo #reponsibilites 
+{
+    font-size:20px;
+    text-align: justify;
+    line-height:27px;
+}
+#skills
+{
+    padding:var(--sections_padding);
+    background-color:var(--white);
+    height:350px;
+}
+
+#skills  .skillcontainer .skill-img
+{
+    float:left;
+    width:100px;
+    height: 100px;
+    padding-right:80px;
+    padding-bottom:30px;
+}
+#projects
+{
+    padding:var(--sections_padding);
+    background-color:var(--lightpink);
+    height:800px;
+}
+
+#projectimage1
+{
+    width:70%;
+    border-radius:10px;
+    
+}
+#projectimage2
+{
+    width:70%;
+    height:238px;
+    border-radius:10px;
+}
+.projectcontent
+{
+    padding-left:var(--section_padding);
+    padding-right:var(--section_padding);
+}
+.projectname
+{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:0px;
+    text-align:center;
+}
+.projectdescription
+{
+    font-size:20px;
+    text-align: justify;
+    line-height:22px;
+}
+#achi_edu
+{
+    padding:var(--sections_padding);
+    background-color:var(--white);
+    height:550px;
+}
+#acievementdesc
+{
+    font-size:20px;
+    text-align: justify;
+    line-height:22px;
+}
+
+#contactme
+{
+    padding:var(--sections_padding);
+    background-color:var(--lightpink);
+    height:120px;
+}
+
+#contactcenter 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#contactcenter .contact-icon
+{
+    float:left;
+    width:30px;
+    height: 30px;
+    padding-right:30px;
+    padding-bottom:5px;
+}
+
+.back-to-top {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}

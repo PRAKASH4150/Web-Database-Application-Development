@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>CSS_Grid</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            NavBar
+        </nav>
+        <div id="sidebar">
+            SideBar
+        </div>
+        <main>
+            <h1>
+                Sai Surya Prakash Moka
+            </h1>
+        </main>
+        <div id="content1">
+            Content1
+        </div>
+        <div id="content2">
+            Content2
+        </div>
+        <div id="content3">
+            Content3
+        </div>
+        <footer>Footer</footer>
+    </div>
+    <style>
+        :root {
+            --main-radius: 5px;
+            --main-padding: 5px;
+            --blue: #1e90ff;
+            --bluish: #52489c;
+            --white: white;
+            --yellowish: #f7c600;
+            --reddish: #f45b69;
+
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                "nav nav nav nav"
+                "sidebar main main main"
+                "sidebar content1 content2 content3"
+                "sidebar footer footer footer"
+
+            ;
+            height: 100vh;
+            grid-gap: 0.5rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 0.3fr 1.9fr 1fr 1fr;
+        }
+
+        nav {
+            background: var(--bluish);
+            border-radius: var(--main-radius);
+            grid-area: nav;
+            padding: var(--main-padding);
+        }
+
+
+        main {
+            background: var(--blue);
+            border-radius: var(--main-radius);
+            grid-area: main;
+            padding: var(--main-padding);
+        }
+
+        #sidebar {
+            background: maroon;
+            border-radius: var(--main-radius);
+            grid-area: sidebar;
+            padding: var(--main-padding);
+        }
+
+        #content1 {
+            background: var(--yellowish);
+            border-radius: var(--main-radius);
+            grid-area: content1;
+            padding: var(--main-padding);
+        }
+
+        #content2 {
+            background: var(--yellowish);
+            border-radius: var(--main-radius);
+            grid-area: content2;
+            padding: var(--main-padding);
+        }
+
+        #content3 {
+            background: var(--yellowish);
+            border-radius: var(--main-radius);
+            grid-area: content3;
+            padding: var(--main-padding);
+        }
+
+        footer {
+            background: var(--reddish);
+            border-radius: var(--main-radius);
+            grid-area: footer;
+            padding: var(--main-padding);
+        }
+
+        /*Mobile Layout */
+
+        @media only screen and (max-width:500px) {
+            .container {
+                grid-template-areas:
+                    "nav"
+                    "main"
+                    "content1"
+                    "content2"
+                    "content3"
+                    "footer";
+                grid-template-columns: 1fr;
+                grid-template-rows: 0.4fr 1.6fr 1fr 1fr 1fr 1fr;
+
+            }
+
+            #sidebar {
+                display: none;
+            }
+        }
+    </style>
+</body>
+
+</html>
